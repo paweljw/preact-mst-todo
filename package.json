@@ -1,0 +1,22 @@
+{
+  "name": "preact-mst-todo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
+  },
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
+  "dependencies": {
+    "mobx": "^6.9.0",
+    "mobx-preact": "^3.0.0",
+    "mobx-state-tree": "^5.1.8",
+    "preact": "^10.13.2"
+  },
+  "alias": {
+    "preact/jsx-dev-runtime": "preact/jsx-runtime"
+  }
+}
